@@ -271,7 +271,7 @@ public class Utilities {
 				
 				this.cancel();
 			}
-		}.runTaskTimer(Bukkit.getPluginManager().getPlugin("AdvanceRespawn"), 2, 20);
+		}.runTaskTimer(Bukkit.getPluginManager().getPlugin("AdvanceRespawn"), 60, 20);
 
 	}
 
